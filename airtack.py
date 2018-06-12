@@ -1,4 +1,4 @@
-###Written by Brandon Brozek###
+###Written by revolverdrummer###
 ###July 2017###
 import time
 import os
@@ -46,7 +46,7 @@ time.sleep(0.1)
 print("          \========/     \========/       \____/  \____/  `-----------+ ")
 
 
-print(bcolors.WARNING + "The Airtack script was written by Brandon Brozek in July of 2017." + bcolors.ENDC)
+print(bcolors.WARNING + "The Airtack script was written by revolverdrummer in July of 2017." + bcolors.ENDC)
 print(bcolors.HEADER + "First wifi networks within range will be scanned.\nThen you will start capturing traffic looking for the WPA handshake.\nLastly, the program will attempt to crack the WPA password." + bcolors.ENDC)
 cont=input("Press [Enter] to continue")
 
