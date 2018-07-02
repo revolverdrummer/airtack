@@ -102,9 +102,9 @@ suffixfile = "-01.cap"
 # Checks to see if a wordlist was parsed. If not the user is prompted to enter one.
 if wordlist == None:
 	wordlist = input('What is the absolute path of the wordlist you want to use? ')
-# If no wordlist is specified, it is defaulted to rockyou.txt
+# If no wordlist is specified, it is defaulted to fasttrack.txt
 if wordlist == "":
-	wordlist="/usr/share/wordlists/rockyou_utf8.txt"
+	wordlist="/usr/share/wordlists/fasttrack.txt"
 	print("Wordlist defaulted to rockyou.txt")
 # Begins cracking the WPA2 handshake file.
 crackcmd="aircrack-ng "+ file + suffixfile +" -w "+ wordlist
