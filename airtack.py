@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-###Written by Brandon Brozek###
+###Written by RevolverDrummer###
 ###July 2017###
 ###Updated June 29th 2018###
 import time
 import os
 import argparse
 
-parser = argparse.ArgumentParser(description="Used to automatically walk through the WiFi hacking process.", epilog="Written by Brandon Brozek")
+parser = argparse.ArgumentParser(description="Used to automatically walk through the WiFi hacking process.", epilog="Written by RevolverDrummer")
 parser.add_argument("-c","--channel",dest="channel", help="Specify the channel that the wifi network is on")
 parser.add_argument("-b","--bssid",dest="bssid", help="The BSSID of the network you want to hack.")
 parser.add_argument("-f","--file",dest="file", help="The name file you want to save the capture to. Gets saved as a .pcap.")
