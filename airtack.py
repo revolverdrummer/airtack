@@ -53,7 +53,7 @@ print("         \\ / || \ //   \\ / || \ //     (( <> ))(( <> ))\\_\_\_\_\\\\  "
 print("          \========/     \========/       \____/  \____/  `-----------+ ")
 
 
-print(bcolors.WARNING + "The Airtack script was written by Brandon Brozek in July of 2017." + bcolors.ENDC)
+print(bcolors.WARNING + "The Airtack script was written by RevolverDrummer in July of 2017." + bcolors.ENDC)
 print(bcolors.HEADER + "First wifi networks within range will be scanned if arguments were not passed in.\nThen traffic will be sniffed for the WPA handshake. \nLastly, the program will attempt to crack the WPA password." + bcolors.ENDC)
 input("Press [Enter] to continue")
 
